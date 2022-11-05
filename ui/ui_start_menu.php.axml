@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="ui_start_menu">
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  
+  
+  
+  
+    
+    
+    
+    
+  
+  
+  
+  
+  <method name="doImage5ClickLeft">
+      <showForm form="calculator" form-type="form"/>
+    <minimizeForm form="calculator" form-type="form" restore="1" restore-type=""/>
+    <elementHide object="form('MainForm')-&gt;fragmentAlt" object-type="object"/>
+    <elementHide object="form('MainForm')-&gt;label3" object-type="object"/>
+    </method>
+  
+  
+  <method name="doImage8ClickLeft">
+      <showForm form="player" form-type="form"/>
+    <minimizeForm form="player" form-type="form" restore="1" restore-type=""/>
+    <elementHide object="form('MainForm')-&gt;fragmentAlt" object-type="object"/>
+    <elementHide object="form('MainForm')-&gt;label3" object-type="object"/>
+    </method>
+  <method name="doImage11ClickLeft">
+      <showForm form="notepad" form-type="form"/>
+    <minimizeForm form="notepad" form-type="form" restore="1" restore-type=""/>
+    <elementHide object="form('MainForm')-&gt;fragmentAlt" object-type="object"/>
+    <elementHide object="form('MainForm')-&gt;label3" object-type="object"/>
+    </method>
+  
+  
+  <method name="doImageClickLeft">
+      <showForm form="time_about" form-type="form"/>
+      <minimizeForm form="time_about" form-type="form" restore="1" restore-type=""/>
+      <elementHide object="form('MainForm')-&gt;fragment3" object-type="object"/>
+    <elementHide object="form('MainForm')-&gt;fragmentAlt" object-type="object"/>
+    <elementHide object="form('MainForm')-&gt;label3" object-type="object"/>
+    </method>
+  <method name="doImage6ClickLeft">
+      <showForm form="browser" form-type="form"/>
+      <minimizeForm form="browser" form-type="form" restore="1" restore-type=""/>
+      <elementHide object="form('MainForm')-&gt;fragmentAlt" object-type="object"/>
+    <elementHide object="form('MainForm')-&gt;label3" object-type="object"/>
+    <elementHide object="form('MainForm')-&gt;label3" object-type="object"/>
+    </method>
+  
+  <method name="doImage4ClickLeft">
+      <showForm form="ui_settings" form-type="form"/>
+      <minimizeForm form="settings" form-type="form" restore="1" restore-type=""/>
+      <elementHide object="form('MainForm')-&gt;fragmentAlt" object-type="object"/>
+    <elementHide object="form('MainForm')-&gt;label3" object-type="object"/>
+    </method>
+  <method name="doImage7ClickLeft">
+      <showForm form="paint" form-type="form"/>
+      <minimizeForm form="paint" form-type="form" restore="1" restore-type=""/>
+      <elementHide object="form('MainForm')-&gt;fragmentAlt" object-type="object"/>
+      <elementHide object="form('MainForm')-&gt;label3" object-type="object"/>
+    </method>
+  </class>
+</root>

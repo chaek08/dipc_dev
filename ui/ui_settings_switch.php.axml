@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="ui_settings_switch">
+    <method name="doButtonAltClickLeft">
+      <applicationShutdown/>
+    </method>
+    <method name="doButton3ClickLeft">
+      <minimizeForm form="MainForm" form-type="form" restore="" restore-type=""/>
+    </method>
+    <method name="doButton4ClickLeft">
+      <minimizeForm form="MainForm" form-type="form" restore="1" restore-type=""/>
+    </method>
+  </class>
+</root>

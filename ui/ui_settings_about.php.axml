@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="ui_settings_about">
+    <method name="doButtonClickLeft">
+      <showForm form="license" form-type="form"/>
+    </method>
+  </class>
+</root>

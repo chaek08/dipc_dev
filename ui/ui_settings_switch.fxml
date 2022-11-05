@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="552" prefWidth="568" styleClass="">
+  <children>
+    <FlatButton alignment="CENTER" borderRadius="13" clickColor="#ffffff" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#ffffff" id="ui_settings_wnd" layoutX="8" layoutY="8" opacity="0.95461562210559" prefHeight="536" prefWidth="552" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-ui_settings_wnd" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="6" clickColor="#e6e6e6" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="16.009879592466" hoverColor="#f2f2f2" id="buttonAlt" layoutX="24" layoutY="24" prefHeight="64" prefWidth="168" styleClass="x-flat-button " text="Выключить&#10;" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" graphic=".data/img/power_power2.png" id="data-buttonAlt" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="6" clickColor="#e6e6e6" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="14.634146341463" hoverColor="#f2f2f2" id="button3" layoutX="200" layoutY="24" prefHeight="64" prefWidth="168" styleClass="x-flat-button " text="Свернуть рабочий стол" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" graphic=".data/little_elements/minus.png" id="data-button3" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="6" clickColor="#e6e6e6" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="14.634146341463" hoverColor="#f2f2f2" id="button4" layoutX="376" layoutY="24" prefHeight="64" prefWidth="168" styleClass="x-flat-button " text="Показать рабочий стол" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" graphic=".data/little_elements/plus.png" id="data-button4" visible="1"/>
+  </children>
+</AnchorPane>
