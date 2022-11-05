@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="notepad">
+    
+    <method name="doImage3Click">
+      <minimizeForm form="~sender" form-type="form" restore="" restore-type=""/>
+    </method>
+    
+  
+  
+  
+  <method name="doImageAltClick">
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  
+  
+  <method name="doButtonClickLeft">
+      <elementSetText object="edit" object-type="object" relative="" relative-type="" value="" value-type="string"/>
+    </method>
+  </class>
+</root>

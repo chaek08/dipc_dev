@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="blocking">
+    
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  <method name="doButton3ClickLeft">
+      <elementHide object="form('MainForm')-&gt;fragment" object-type="object"/>
+    </method>
+  
+  <method name="doButtonClick2x">
+      <showForm form="blocking_error" form-type="form"/>
+    </method>
+  </class>
+</root>

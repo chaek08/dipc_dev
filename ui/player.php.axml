@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="player">
+    <method name="doImage3Click">
+      <minimizeForm form="~sender" form-type="form" restore="" restore-type=""/>
+    </method>
+    
+    
+    
+    
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doImageAltClick">
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  </class>
+</root>

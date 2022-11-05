@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="ui_console">
+    
+  
+  
+  
+  
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  <method name="doLabel8MouseDown">
+      <elementHide object="imageAlt" object-type="object"/>
+      <elementSetText object="" object-type="object" relative="" relative-type="" value="clear" value-type="string"/>
+      <elementHide object="~sender" object-type="object"/>
+    </method>
+  
+  
+  <method name="doImageAltClick">
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+    <method name="doImage3Click">
+      <minimizeForm form="~sender" form-type="form" restore="" restore-type=""/>
+      <minimizeForm form="~sender" form-type="form" restore="" restore-type=""/>
+    </method>
+  </class>
+</root>

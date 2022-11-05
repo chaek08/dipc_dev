@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="form2">
+    
+    
+  
+  
+  
+  
+  
+  
+    
+  
+    
+  
+  
+    
+  
+  
+    
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doButtonAltClickLeft">
+      <loadForm form="player" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  <method name="doButton3ClickLeft">
+      <loadForm form="power" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  
+  
+  <method name="doButtonClickLeft">
+      <loadForm form="ui_settings" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+      <elementHide object="form('ui_settings')-&gt;fragment_update" object-type="object"/>
+      <elementHide object="form('ui_settings')-&gt;fragment_resolution" object-type="object"/>
+      <elementHide object="form('ui_settings')-&gt;fragment_reference" object-type="object"/>
+      <elementHide object="form('ui_settings')-&gt;fragment_u_name" object-type="object"/>
+      <elementHide object="form('ui_settings')-&gt;fragment_wall" object-type="object"/>
+      <elementHide object="form('ui_settings')-&gt;fragment_power" object-type="object"/>
+      <elementHide object="form('ui_settings')-&gt;label" object-type="object"/>
+      <elementShow object="form('ui_settings')-&gt;fragment_about" object-type="object"/>
+    </method>
+    
+  <method name="doButton6ClickLeft">
+      <loadForm form="ui_settings" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+      <elementHide object="form('ui_settings')-&gt;fragment_update" object-type="object"/>
+      <elementHide object="form('ui_settings')-&gt;fragment_resolution" object-type="object"/>
+      <elementHide object="form('ui_settings')-&gt;fragment_reference" object-type="object"/>
+      <elementHide object="form('ui_settings')-&gt;fragment_u_name" object-type="object"/>
+      <elementHide object="form('ui_settings')-&gt;fragment_about" object-type="object"/>
+      <elementHide object="form('ui_settings')-&gt;fragment_power" object-type="object"/>
+      <elementHide object="form('ui_settings')-&gt;label" object-type="object"/>
+      <elementShow object="form('ui_settings')-&gt;fragment_wall" object-type="object"/>
+    </method>
+  </class>
+</root>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="label3">
+    <behaviour format="HH:mm" type="behaviour\custom\WatchMakerBehaviour"/>
+    <behaviour color="#999999" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="label4">
+    <behaviour format="HH:mm:ss" type="behaviour\custom\WatchMakerBehaviour"/>
+    <behaviour color="#999999" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="label5">
+    <behaviour format="dd.MM.YYYY" type="behaviour\custom\WatchMakerBehaviour"/>
+    <behaviour color="#999999" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="buttonAlt">
+    <behaviour color="#b3b3b3" offsetX="2.4691358024691" offsetY="2.4691358024691" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="ui_change_user_name">
+    
+  
+  
+  
+  
+  <method name="doButtonAltClickLeft">
+      <hideForm form="ui_start_menu" form-type="form"/>
+      <elementSetText object="form('MainForm')-&gt;label3" object-type="object" relative="" relative-type="" value="edit" value-type="object"/>
+    </method>
+    
+    
+    
+  
+  <method name="doButton4ClickLeft">
+      <hideForm form="ui_start_menu" form-type="form"/>
+      <elementSetText object="form('MainForm')-&gt;label3" object-type="object" relative="" relative-type="" value="Пользователь" value-type="string"/>
+    <elementSetText object="edit" object-type="object" relative="" relative-type="" value="Пользователь" value-type="string"/>
+      <comment text="24.09.2022 : Теперь в поле ввода меняется текст." text-type="string"/>
+    </method>
+  </class>
+</root>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    
+  
+    
+  
+  
+  
+    
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+  
+    
+  
+  
+    
+  
+    
+  
+    
+    
+  
+  
+  <method name="doLabel9Click">
+      <showForm form="paint" form-type="form"/>
+    </method>
+    
+  
+  
+    
+    
+  
+  
+  
+  
+  
+    
+  
+  
+  
+    
+    
+  
+  
+    
+  
+  
+  
+  
+    
+  
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doImg_01ClickL">
+      <hideForm form="form2" form-type="form"/>
+    <elementHide object="fragmentAlt" object-type="object"/>
+    <elementHide object="fragment3" object-type="object"/>
+    <elementHide object="label3" object-type="object"/>
+    </method>
+  <method name="doImg_01ClickRi">
+      <showForm form="form2" form-type="form"/>
+    </method>
+  <method name="doImg_02ClickL">
+      <hideForm form="form2" form-type="form"/>
+    <elementHide object="fragmentAlt" object-type="object"/>
+    <elementHide object="fragment3" object-type="object"/>
+    <elementHide object="label3" object-type="object"/>
+    </method>
+  <method name="doImg_02ClickRi">
+      <showForm form="form2" form-type="form"/>
+    </method>
+  <method name="doImg_03ClickL">
+      <hideForm form="form2" form-type="form"/>
+    <elementHide object="fragmentAlt" object-type="object"/>
+    <elementHide object="fragment3" object-type="object"/>
+    <elementHide object="label3" object-type="object"/>
+    </method>
+  <method name="doImg_03ClickRi">
+      <showForm form="form2" form-type="form"/>
+    </method>
+  <method name="doImg_04ClickL">
+      <hideForm form="form2" form-type="form"/>
+    <elementHide object="fragmentAlt" object-type="object"/>
+    <elementHide object="fragment3" object-type="object"/>
+    <elementHide object="label3" object-type="object"/>
+    </method>
+  <method name="doImg_04ClickRi">
+      <showForm form="form2" form-type="form"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  <method name="doTaskbar_oldClickL">
+      <elementHide object="fragmentAlt" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <method name="doLabelAltClick">
+      <showForm form="paint" form-type="form"/>
+    </method>
+    
+  
+  <method name="doImage5Click">
+      <showForm form="ui_console" form-type="form"/>
+      <minimizeForm form="ui_console" form-type="form" restore="1" restore-type=""/>
+    </method>
+  
+  
+  
+  <method name="doImage6Click">
+      <elementShow object="fragment3" object-type="object"/>
+    </method>
+  <method name="doImage6ClickRight">
+      <elementHide object="fragment3" object-type="object"/>
+    </method>
+  
+  
+  <method name="doLabel4Click">
+      <showForm form="paint" form-type="form"/>
+    </method>
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doImage4ClickLeft">
+      <elementShow object="fragmentAlt" object-type="object"/>
+      <elementShow object="label3" object-type="object"/>
+      <elementSetText object="textArea" object-type="object" relative="1" relative-type="" value="open ui_start_menu" value-type="string"/>
+    </method>
+  <method name="doImage4ClickRight">
+      <elementHide object="fragmentAlt" object-type="object"/>
+      <elementHide object="label3" object-type="object"/>
+      <elementSetText object="textArea" object-type="object" relative="1" relative-type="" value="\nClose" value-type="string"/>
+    </method>
+  <method name="doImage8Click">
+      <elementEnabledOn object="fragment" object-type="object"/>
+      <elementShow object="fragment" object-type="object"/>
+    </method>
+  <method name="doKeyDownF1">
+      <applicationShutdown/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doImage7Click">
+      <showForm form="ui_settings" form-type="form"/>
+      <minimizeForm form="ui_console" form-type="form" restore="1" restore-type=""/>
+    </method>
+  
+  <method name="doClickLeft">
+      <hideForm form="form2" form-type="form"/>
+    </method>
+  <method name="doClickRight">
+      <showForm form="form2" form-type="form"/>
+    </method>
+  <method name="doImg_01ClickRight">
+      <elementHide object="fragmentAlt" object-type="object"/>
+    </method>
+  <method name="doImg_02ClickRight">
+      <elementHide object="fragmentAlt" object-type="object"/>
+    </method>
+  <method name="doImg_03ClickRight">
+      <elementHide object="fragmentAlt" object-type="object"/>
+    </method>
+  <method name="doImg_04ClickRight">
+      <elementHide object="fragmentAlt" object-type="object"/>
+    </method>
+  </class>
+</root>

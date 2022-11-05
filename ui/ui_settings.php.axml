@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="ui_settings">
+    <method name="doBtn_exitCl">
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+    <method name="doBtn_rollupCl">
+      <minimizeForm form="~sender" form-type="form" restore="" restore-type=""/>
+      <minimizeForm form="~sender" form-type="form" restore="" restore-type=""/>
+    </method>
+  <method name="doBtn_aboutClickL">
+      <elementShow object="fragment" object-type="object"/>
+    </method>
+  <method name="doBtn_exitClick">
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  <method name="doBtn_rollupClick">
+      <minimizeForm form="~sender" form-type="form" restore="" restore-type=""/>
+    </method>
+  
+    
+  
+  <method name="doButtonClickLeft">
+      <elementShow object="fragment_update" object-type="object"/>
+      <elementHide object="fragment_about" object-type="object"/>
+    <elementHide object="label" object-type="object"/>
+    <elementHide object="fragment_resolution" object-type="object"/>
+    <elementHide object="fragment_reference" object-type="object"/>
+    <elementHide object="fragment_u_name" object-type="object"/>
+    <elementHide object="fragment_wall" object-type="object"/>
+    <elementHide object="fragment_power" object-type="object"/>
+    </method>
+  
+  <method name="doButtonAltClickLeft">
+      <elementShow object="fragment_resolution" object-type="object"/>
+      <elementHide object="fragment_update" object-type="object"/>
+      <elementHide object="fragment_about" object-type="object"/>
+      <elementHide object="label" object-type="object"/>
+    <elementHide object="fragment_reference" object-type="object"/>
+    <elementHide object="fragment_u_name" object-type="object"/>
+    <elementHide object="fragment_wall" object-type="object"/>
+    <elementHide object="fragment_power" object-type="object"/>
+    </method>
+  <method name="doBtn_aboutClickLeft">
+      <elementShow object="fragment_about" object-type="object"/>
+      <elementHide object="label" object-type="object"/>
+      <elementHide object="fragment_update" object-type="object"/>
+      <elementHide object="fragment_resolution" object-type="object"/>
+    <elementHide object="fragment_reference" object-type="object"/>
+    <elementHide object="fragment_u_name" object-type="object"/>
+    <elementHide object="fragment_wall" object-type="object"/>
+    <elementHide object="fragment_power" object-type="object"/>
+    </method>
+    
+  <method name="doButton3ClickLeft">
+      <elementShow object="fragment_reference" object-type="object"/>
+      <elementHide object="fragment_about" object-type="object"/>
+      <elementHide object="label" object-type="object"/>
+      <elementHide object="fragment_resolution" object-type="object"/>
+    <elementHide object="fragment_update" object-type="object"/>
+    <elementHide object="fragment_u_name" object-type="object"/>
+    <elementHide object="fragment_wall" object-type="object"/>
+    <elementHide object="fragment_power" object-type="object"/>
+    </method>
+  
+  <method name="doButton4ClickLeft">
+      <elementShow object="fragment_u_name" object-type="object"/>
+      <elementHide object="fragment_update" object-type="object"/>
+      <elementHide object="fragment_about" object-type="object"/>
+      <elementHide object="label" object-type="object"/>
+      <elementHide object="fragment_reference" object-type="object"/>
+      <elementHide object="fragment_resolution" object-type="object"/>
+    <elementHide object="fragment_wall" object-type="object"/>
+    <elementHide object="fragment_power" object-type="object"/>
+    </method>
+  
+  <method name="doButton5ClickLeft">
+      <elementShow object="fragment_wall" object-type="object"/>
+      <elementHide object="fragment_update" object-type="object"/>
+      <elementHide object="fragment_about" object-type="object"/>
+      <elementHide object="label" object-type="object"/>
+      <elementHide object="fragment_reference" object-type="object"/>
+      <elementHide object="fragment_resolution" object-type="object"/>
+      <elementHide object="fragment_u_name" object-type="object"/>
+    <elementHide object="fragment_power" object-type="object"/>
+    </method>
+    
+  
+  
+  <method name="doButton7ClickLeft">
+      <elementHide object="form('MainForm')-&gt;watermark_label" object-type="object"/>
+    </method>
+    <method name="doButton8ClickLeft">
+      <elementShow object="form('MainForm')-&gt;watermark_label" object-type="object"/>
+    </method>
+  <method name="doButton6ClickLeft">
+      <elementHide object="fragment_about" object-type="object"/>
+      <elementHide object="fragment_update" object-type="object"/>
+      <elementHide object="fragment_reference" object-type="object"/>
+      <elementHide object="fragment_resolution" object-type="object"/>
+      <elementHide object="fragment_u_name" object-type="object"/>
+      <elementHide object="fragment_wall" object-type="object"/>
+      <elementHide object="label" object-type="object"/>
+      <elementShow object="fragment_power" object-type="object"/>
+    </method>
+  </class>
+</root>

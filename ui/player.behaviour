@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="">
+    <behaviour animated="1" opacity="0.7" opacityEnabled="" type="behaviour\custom\DraggingFormBehaviour"/>
+  </target>
+  <target id="play">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="pause">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="stop">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="open">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="slider">
+    <behaviour color="#808080" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="muzlist">
+    <behaviour color="#b3b3b3" offsetX="4.2632564145606E-14" offsetY="4.2632564145606E-14" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image3">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="imageAlt">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="app_label">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="app_icon">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="ui_settings_wnd">
+    <behaviour animated="1" opacity="0.7" opacityEnabled="" type="behaviour\custom\DraggingFormBehaviour"/>
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

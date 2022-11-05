@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="browser">
+    <method name="doImage3Click">
+      <minimizeForm form="~sender" form-type="form" restore="" restore-type=""/>
+    </method>
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doImageAltClick">
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  
+  
+  
+  
+  <method name="doBrowserLoad">
+      <elementHide object="button" object-type="object"/>
+    <elementHide object="image5" object-type="object"/>
+    </method>
+  <method name="doBrowserRunning">
+      <elementShow object="button" object-type="object"/>
+    <elementShow object="image5" object-type="object"/>
+    </method>
+  <method name="doBrowserFail">
+      <showForm form="error_loading" form-type="form"/>
+      <elementHide object="button" object-type="object"/>
+    <elementHide object="image5" object-type="object"/>
+    </method>
+  
+  </class>
+</root>

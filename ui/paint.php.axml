@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="paint">
+    <method name="doImage3Click">
+      <minimizeForm form="~sender" form-type="form" restore="" restore-type=""/>
+    </method>
+    
+  
+  
+  <method name="doImageAltClick">
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  <method name="doButton3ClickLeft">
+      <elementHide object="rect" object-type="object"/>
+    </method>
+  <method name="doButtonClickLeft">
+      <elementShow object="rect" object-type="object"/>
+    </method>
+  </class>
+</root>

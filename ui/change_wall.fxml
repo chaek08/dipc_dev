@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="552" prefWidth="568" styleClass="">
+  <children>
+    <FlatButton alignment="CENTER" borderRadius="13" clickColor="#ffffff" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#ffffff" id="ui_settings_wnd" layoutX="8" layoutY="8" opacity="0.95461562210559" prefHeight="536" prefWidth="552" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-image5" image=".data/desktop_image/img_02.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image6" image=".data/desktop_image/img_03.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image7" image=".data/desktop_image/img_04.png" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="376" layoutY="360" prefHeight="18.62109375" prefWidth="0" styleClass="label " text="" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="true">
+      <font>
+        <Font name="System Regular" size="14"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image10" image=".data/desktop_wnd/ui_start.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label6" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="6" clickColor="#e6e6e6" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="button" layoutX="288" layoutY="72" prefHeight="32" prefWidth="112" styleClass="x-flat-button " text="Установить" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-button" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="6" clickColor="#e6e6e6" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="button3" layoutX="288" layoutY="216" prefHeight="32" prefWidth="112" styleClass="x-flat-button " text="Установить" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-button3" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="6" clickColor="#e6e6e6" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="button6" layoutX="288" layoutY="360" prefHeight="32" prefWidth="112" styleClass="x-flat-button " text="Установить" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-button6" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="6" clickColor="#e6e6e6" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="buttonAlt" layoutX="288" layoutY="112" prefHeight="32" prefWidth="112" styleClass="x-flat-button " text="Сбросить" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-buttonAlt" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="6" clickColor="#e6e6e6" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="button4" layoutX="288" layoutY="256" prefHeight="32" prefWidth="112" styleClass="x-flat-button " text="Сбросить" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-button4" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="6" clickColor="#e6e6e6" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#f2f2f2" id="button5" layoutX="288" layoutY="400" prefHeight="32" prefWidth="112" styleClass="x-flat-button " text="Сбросить" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-button5" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-taskbar" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-ui_settings_wnd" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="17" clickColor="#333333" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#333333" id="button9" layoutX="56" layoutY="64" prefHeight="128" prefWidth="216" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button9" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="112" id="image5" layoutX="64" layoutY="72" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="200">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <FlatButton alignment="CENTER" borderRadius="7" clickColor="#ffffff" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#ffffff" id="taskbar" layoutX="64" layoutY="168" opacity="0.75609756097561" prefHeight="17" prefWidth="200" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="240" layoutY="168" prefHeight="17" prefWidth="24" styleClass="label " text="ff:ff" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="8"/>
+      </font>
+    </LabelEx>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="16" id="image10" layoutX="152" layoutY="168" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="16">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <FlatButton alignment="CENTER" borderRadius="17" clickColor="#333333" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#333333" id="button7" layoutX="56" layoutY="208" prefHeight="128" prefWidth="216" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button7" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-imageAlt" image=".data/desktop_wnd/ui_start.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-button8" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="112" id="image6" layoutX="64" layoutY="216" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="200">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <FlatButton alignment="CENTER" borderRadius="7" clickColor="#ffffff" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#ffffff" id="button8" layoutX="64" layoutY="312" opacity="0.75609756097561" prefHeight="17" prefWidth="200" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="16" id="imageAlt" layoutX="152" layoutY="312" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="16">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <FlatButton alignment="CENTER" borderRadius="17" clickColor="#333333" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#333333" id="button10" layoutX="56" layoutY="352" prefHeight="128" prefWidth="216" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button10" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image4" image=".data/desktop_wnd/ui_start.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-button11" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="112" id="image7" layoutX="64" layoutY="360" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="200">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <FlatButton alignment="CENTER" borderRadius="7" clickColor="#ffffff" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#ffffff" id="button11" layoutX="64" layoutY="456" opacity="0.75609756097561" prefHeight="17" prefWidth="200" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="16" id="image4" layoutX="152" layoutY="456" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="16">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="240" layoutY="456" prefHeight="17" prefWidth="24" styleClass="label " text="ff:ff" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="8"/>
+      </font>
+    </LabelEx>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="240" layoutY="312" prefHeight="17" prefWidth="24" styleClass="label " text="ff:ff" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="8"/>
+      </font>
+    </LabelEx>
+  </children>
+</AnchorPane>

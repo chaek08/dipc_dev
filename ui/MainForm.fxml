@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1032" prefWidth="1920" styleClass="">
+  <children>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="1032" id="img_04" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="1920">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <ImageViewEx autoSize="false" background="#ffffff" centered="false" focusTraversable="false" height="1032" id="img_03" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#ffffff" width="1920">
+      <font>
+        <Font name="System Regular" size="60"/>
+      </font>
+    </ImageViewEx>
+    <ImageViewEx autoSize="false" background="#ffffff" centered="false" focusTraversable="false" height="1032" id="img_02" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#ffffff" width="1920">
+      <font>
+        <Font name="System Regular" size="60"/>
+      </font>
+    </ImageViewEx>
+    <ImageViewEx autoSize="false" background="#ffffff" centered="false" focusTraversable="false" height="1032" id="img_01" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#ffffff" width="1920">
+      <font>
+        <Font name="System Regular" size="60"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-img_01" image=".data/desktop_image/img_01.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <Data cursor="HAND" enabled="1" hoverImage="" id="data-image4" image=".data/desktop_wnd/ui_start.png" tooltipText="Пуск" visible="1"/>
+    <Data cursor="HAND" enabled="1" id="data-image6" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-img_02" image=".data/desktop_image/img_02.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-img_03" image=".data/desktop_image/img_03.png" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label9" layoutX="30" layoutY="88" prefHeight="18.62109375" prefWidth="52.1171875" styleClass="label " text="Блокинг" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="14"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label9" tooltipText="" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="48" id="image19" layoutX="32" layoutY="32" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="48">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="HAND" enabled="1" id="data-image19" image=".data/desktop_icon/ui_blocking_icon.png" visible="1"/>
+    <Data content="blocking" cursor="DEFAULT" enabled="" id="data-fragment" visible=""/>
+    <Data cursor="DEFAULT" enabled="1" id="data-img_04" image=".data/desktop_image/img_04.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label16" visible="1"/>
+    <Data content="ui_start_menu" cursor="DEFAULT" enabled="1" id="data-fragmentAlt" visible=""/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="29" layoutY="192" prefHeight="18.62109375" prefWidth="53.5048828125" styleClass="label " text="Консоль" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="14"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" tooltipText="" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="48" id="image3" layoutX="32" layoutY="136" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="48">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="HAND" enabled="1" id="data-image3" image=".data/start_menu_icon/ui_console_icon_48.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="80" id="image5" layoutX="16" layoutY="128" mosaic="false" mosaicGap="0" opacity="0.4390243902439" proportional="false" stretch="true" styleClass="" textFill="#000000" width="80">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="HAND" enabled="1" id="data-image5" tooltipText="Данная программа предназначена для блокировки компьютера в случае отсутствия владельца" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="watermark_label" layoutX="1688" layoutY="944" prefHeight="19.951171875" prefWidth="218.43017578125" styleClass="label " text="&quot;DiCore&quot; build 2982, Oct 18 2022" textAlignment="LEFT" textFill="#4d4d4d" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="15"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-watermark_label" visible="1"/>
+    <Data content="time_widget" cursor="DEFAULT" enabled="1" id="data-fragment3" visible=""/>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label3" visible=""/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="24" layoutY="296" prefHeight="18.62109375" prefWidth="68.93359375" styleClass="label " text="Настройки" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="14"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label4" tooltipText="" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="48" id="imageAlt" layoutX="32" layoutY="240" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="48">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="HAND" enabled="1" id="data-imageAlt" image=".data/start_menu_icon/ui_settings_icon_48.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="80" id="image7" layoutX="16" layoutY="232" mosaic="false" mosaicGap="0" opacity="0.4390243902439" proportional="false" stretch="true" styleClass="" textFill="#000000" width="80">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="HAND" enabled="1" id="data-image7" tooltipText="Данная программа предназначена для блокировки компьютера в случае отсутствия владельца" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="80" id="image8" layoutX="16" layoutY="24" mosaic="false" mosaicGap="0" opacity="0.4390243902439" proportional="false" stretch="true" styleClass="" textFill="#000000" width="80">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="HAND" enabled="1" id="data-image8" tooltipText="Данная программа предназначена для блокировки компьютера в случае отсутствия владельца" visible="1"/>
+    <FragmentPane alignment="CENTER" focusTraversable="false" id="fragment" layoutX="1936" layoutY="8" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="40" prefWidth="40" spacing="0" styleClass="fragment-pane "/>
+    <FragmentPane alignment="CENTER" focusTraversable="false" id="fragment3" layoutX="1576" layoutY="656" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="320" prefWidth="344" spacing="0" styleClass="fragment-pane "/>
+    <FlatButton alignment="CENTER" borderRadius="6" clickColor="#ffffffc4" color="#ffffffc4" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#ffffffc4" id="button" layoutX="8" layoutY="976" prefHeight="48" prefWidth="1904" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="image4" layoutX="944" layoutY="984" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="32">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="1861" layoutY="980" prefHeight="24" prefWidth="40" styleClass="label " text="10:47" textAlignment="LEFT" textFill="#1a1a1a" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label16" layoutX="1833" layoutY="998" prefHeight="21" prefWidth="72" styleClass="label " text="24.07.2022" textAlignment="LEFT" textFill="#1a1a1a" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="48" id="image6" layoutX="1832" layoutY="976" mosaic="false" mosaicGap="0" opacity="0.4390243902439" proportional="false" stretch="true" styleClass="" textFill="#000000" width="64">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <FragmentPane alignment="CENTER" focusTraversable="false" id="fragmentAlt" layoutX="744" layoutY="640" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="336" prefWidth="424" spacing="0" styleClass="fragment-pane "/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="776" layoutY="928" prefHeight="21" prefWidth="328" styleClass="label " text="Пользователь" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="15"/>
+      </font>
+    </LabelEx>
+  </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="error_loading">
+    
+    
+  
+  
+  
+  
+  
+  
+  
+  <method name="doImageAltClick">
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  <method name="doButtonClickLeft">
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  </class>
+</root>
